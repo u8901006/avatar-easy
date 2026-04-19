@@ -8,6 +8,13 @@ export const perpetratorImitatorScript: ArchetypeScript = {
   totalRounds: 7,
 
   nodes: {
+    start: {
+      id: "start",
+      speaker: "narrator",
+      text: "你感覺到一股冰冷的氣息從身後靠近。那個聲音在你耳邊響起，語氣冰冷而篤定——帶著一種你以為已經遠離，卻從未真正離開的威嚴。",
+      next: "node-1",
+    },
+
     "node-1": {
       id: "node-1",
       speaker: "archetype",

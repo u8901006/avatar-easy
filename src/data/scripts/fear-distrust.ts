@@ -6,6 +6,13 @@ export const fearDistrustScript: ArchetypeScript = {
     "你感覺到空氣裡有什麼。不是聲音，不是影子，而是一種幾乎無法辨識的……存在感。像是一個把自己縮到最小的孩子，躲在房間最深的角落裡，屏住呼吸，祈禱不被任何人發現。每次你試著靠近，那個存在就往更深處退去。它不是在對抗你——它是在躲。躲得那麼徹底，彷彿「被看見」本身就是最大的危險。",
   totalRounds: 7,
   nodes: {
+    start: {
+      id: "start",
+      speaker: "narrator",
+      text: "你感覺到空氣裡有什麼。不是聲音，不是影子，而是一種幾乎無法辨識的……存在感。像是一個把自己縮到最小的孩子，躲在房間最深的角落裡，屏住呼吸，祈禱不被任何人發現。",
+      next: "voice-silence-1",
+    },
+
     "voice-silence-1": {
       id: "voice-silence-1",
       speaker: "archetype",

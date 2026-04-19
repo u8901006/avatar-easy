@@ -13,7 +13,7 @@ export function resolveAutoAdvance(
   let current = state;
   let node = script.nodes[current.currentNodeId];
 
-  while (node && node.next && !node.choices && !node.end) {
+  while (node && node.next && (!node.choices || node.choices.length === 0) && !node.end) {
     current = {
       ...current,
       currentNodeId: node.next,

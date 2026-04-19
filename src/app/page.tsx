@@ -39,6 +39,15 @@ export default function HomePage() {
           </p>
         </Link>
       </div>
+
+      <a
+        href="https://www.leepsyclinic.com/2020/02/Toolbox-of-Complex-trauma-and-Dissociation.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="max-w-lg rounded-lg border border-neutral-800 bg-neutral-900/50 px-5 py-4 text-sm leading-relaxed text-neutral-400 transition-colors hover:border-neutral-600 hover:text-neutral-300"
+      >
+        📚 李政洋身心診所 — 複雜創傷與解離懶人包
+      </a>
     </div>
   );
 }

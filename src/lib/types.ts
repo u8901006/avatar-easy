@@ -3,7 +3,12 @@ export type VoiceArchetypeId =
   | "self-harm-suicidal"
   | "critical"
   | "perpetrator-imitator"
-  | "fear-distrust";
+  | "fear-distrust"
+  | "child"
+  | "adolescent"
+  | "homicidal"
+  | "self-harm"
+  | "suicidal";
 
 export type Mode = "professional" | "self-help";
 

@@ -20,6 +20,11 @@ import { selfHarmSuicidalScript } from "@/data/scripts/self-harm-suicidal";
 import { criticalScript } from "@/data/scripts/critical";
 import { perpetratorImitatorScript } from "@/data/scripts/perpetrator-imitator";
 import { fearDistrustScript } from "@/data/scripts/fear-distrust";
+import { childScript } from "@/data/scripts/child";
+import { adolescentScript } from "@/data/scripts/adolescent";
+import { homicidalScript } from "@/data/scripts/homicidal";
+import { selfHarmScript } from "@/data/scripts/self-harm";
+import { suicidalScript } from "@/data/scripts/suicidal";
 
 import DialogueBox from "@/components/DialogueBox";
 import NarratorBox from "@/components/NarratorBox";
@@ -32,6 +37,11 @@ const scripts: Record<string, ArchetypeScript> = {
   critical: criticalScript,
   "perpetrator-imitator": perpetratorImitatorScript,
   "fear-distrust": fearDistrustScript,
+  child: childScript,
+  adolescent: adolescentScript,
+  homicidal: homicidalScript,
+  "self-harm": selfHarmScript,
+  suicidal: suicidalScript,
 };
 
 const SAFETY_RESOURCES = (

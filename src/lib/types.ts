@@ -8,7 +8,10 @@ export type VoiceArchetypeId =
   | "adolescent"
   | "homicidal"
   | "self-harm"
-  | "suicidal";
+  | "suicidal"
+  | "perpetrator-identified"
+  | "sexualized"
+  | "tadp-shame";
 
 export type Mode = "professional" | "self-help";
 

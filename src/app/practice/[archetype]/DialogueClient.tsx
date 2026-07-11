@@ -25,6 +25,9 @@ import { adolescentScript } from "@/data/scripts/adolescent";
 import { homicidalScript } from "@/data/scripts/homicidal";
 import { selfHarmScript } from "@/data/scripts/self-harm";
 import { suicidalScript } from "@/data/scripts/suicidal";
+import { perpetratorIdentifiedScript } from "@/data/scripts/perpetrator-identified";
+import { sexualizedScript } from "@/data/scripts/sexualized";
+import { tadpShameScript } from "@/data/scripts/tadp-shame";
 
 import DialogueBox from "@/components/DialogueBox";
 import NarratorBox from "@/components/NarratorBox";
@@ -42,6 +45,9 @@ const scripts: Record<string, ArchetypeScript> = {
   homicidal: homicidalScript,
   "self-harm": selfHarmScript,
   suicidal: suicidalScript,
+  "perpetrator-identified": perpetratorIdentifiedScript,
+  sexualized: sexualizedScript,
+  "tadp-shame": tadpShameScript,
 };
 
 const SAFETY_RESOURCES = (

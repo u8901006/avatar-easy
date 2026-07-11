@@ -181,6 +181,60 @@ export const archetypes: ArchetypeInfo[] = [
     contentWarning:
       "本主題涉及自殺意念、絕望、創傷與孤立的深度描寫，內容高度敏感，可能引發強烈情緒。本工具為練習用途，絕非治療或危機處置的替代品。如果您或身邊的人出現自殺念頭或自傷行為，請立即尋求專業協助：全國自殺防治專線 1925、生命線 1995、張老師 1980；緊急狀況請撥打 110。",
   },
+  {
+    id: "perpetrator-identified",
+    name: "認同加害者的部分",
+    codename: "以掌控對抗危險的守護者",
+    emoji: "🛡️",
+    chapter: "第 21 章",
+    color: "#B45309",
+    features:
+      "可能以嚴厲、支配、合理化傷害或拒絕關懷的方式出現，也可能將攻擊轉向自己或他人。",
+    protectiveFunction:
+      "透過掌控、警戒與內化的規則，避免再次感到無助、被羞辱或受傷。",
+    origin:
+      "常源於在危險中與加害者認同；這曾是維持生存感與可預測感的方式。",
+    coreIntervention:
+      "承認其保護意圖，維持清楚且不傷害的界線，慢慢區分過去的危險與現在的選擇。",
+    contentWarning:
+      "內容涉及創傷、控制、羞辱與傷害。若感到不適，請暫停並尋求可信任的專業支持。",
+  },
+  {
+    id: "sexualized",
+    name: "性化的部分",
+    codename: "以順從尋找安全的部分",
+    emoji: "🫧",
+    chapter: "第 22 章",
+    color: "#C026D3",
+    features:
+      "可能呈現調情、去抑制、理想化加害者、混淆關係界線，或在事後感到羞恥與厭惡。",
+    protectiveFunction:
+      "以曾經與連結或安全綁定的順從策略，試圖避免危險、維持依附並保護系統。",
+    origin:
+      "常與性創傷、誘拐或依附關係中的背叛有關；這些反應是生存重演，而非有意選擇。",
+    coreIntervention:
+      "以不責備的態度辨識生存邏輯，同時提供穩定、清楚、尊重同意的關係界線。",
+    contentWarning:
+      "內容涉及性創傷、誘拐、關係界線與羞恥。若感到不適，請暫停並尋求可信任的專業支持。",
+  },
+  {
+    id: "tadp-shame",
+    name: "羞恥的部分",
+    codename: "想要隱形的自我保護者",
+    emoji: "🌫️",
+    chapter: "TADP 主題章節",
+    color: "#7C3AED",
+    features:
+      "可能退縮、僵住、縮小存在感、難以接受善意，並帶著深層的自我責備或缺陷感。",
+    protectiveFunction:
+      "透過隱藏、沉默與先責怪自己，降低暴露、被拒絕或再次受辱的風險。",
+    origin:
+      "常在羞辱、指責、情感遺棄或虐待被視為常態的關係環境中發展。",
+    coreIntervention:
+      "放慢節奏，以穩定陪伴而非反駁或催促回應，讓這個部分經驗到它可以存在而不必消失。",
+    contentWarning:
+      "內容涉及羞恥、自我厭惡、情感遺棄與創傷。若感到不適，請暫停並尋求可信任的專業支持。",
+  },
 ];
 
 export function getArchetype(id: VoiceArchetypeId): ArchetypeInfo {

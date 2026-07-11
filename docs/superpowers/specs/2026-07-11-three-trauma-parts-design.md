@@ -23,7 +23,7 @@ the repository.
 | --- | --- | --- |
 | `perpetrator-identified` | 認同加害者的部分 | `認同加害者的部分.md` |
 | `sexualized` | 性化的部分 | `性化的部分.md` |
-| `tadp-shame` | TADP 羞恥的部分 | `TADP羞恥的部分.md` |
+| `tadp-shame` | 羞恥的部分 | `TADP羞恥的部分.md` |
 
 Each entry will include the same metadata supplied by the existing
 `ArchetypeInfo` interface: its name, codename, emoji, chapter, colour,
